@@ -1,19 +1,273 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Reveal(Conceptual Class Practice Project)</title>
-    <!-- bootstrap css -->
-    <link rel="stylesheet" href="css/bootstrap.css">
-    <!-- main css -->
-    <link rel="stylesheet" href="css/style.css">
-</head>
-<body>
-    
 
-    <!-- bootstrap js-->
-    <script src="js/bootstrap.js"></script>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Reveal(Conceptual Class Practice Project)</title>
+  <!-- font awesome -->
+  <script src="https://kit.fontawesome.com/8fffc74bc6.js" crossorigin="anonymous"></script>
+  <!-- bootstrap css -->
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <!-- main css -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <header>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg container">
+      <div class="container-fluid">
+        <h1 class="fw-bold text-primary display-4">Reve<span class="text-secondary">al</span></h1>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0 fw-semibold">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Services
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Login</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- banner -->
+    <section>
+      <div id="carouselExample" class="carousel slide">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="bannerImg1 d-flex justify-content-center align-items-center text-center">
+              <!-- the below div is taken because I don't want to use flex-direction -->
+              <div>
+                <h2 class="text-primary display-3 fw-bold">Making <span
+                    class="text-secondary text-decoration-underline">your ideas</span> <br>
+                  happen!</h2>
+                <p class="text-primary">
+                  The most informative blockchain news source. Publishing multiple articles and videos daily.
+                </p>
+                <button class="btn btn-primary">Get Started</button>
+                <button class="btn btn-secondary">Our Projects</button>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="bannerImg2 d-flex justify-content-center align-items-center text-center">
+              <div>
+                <h2 class="text-primary display-3 fw-bold">Making <span
+                    class="text-secondary text-decoration-underline">your ideas</span> <br>
+                  happen!</h2>
+                <p class="text-primary">
+                  The most informative blockchain news source. Publishing multiple articles and videos daily.
+                </p>
+                <button class="btn btn-primary">Get Started</button>
+                <button class="btn btn-secondary">Our Projects</button>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="bannerImg3 d-flex justify-content-center align-items-center text-center">
+              <div>
+                <h2 class="text-primary display-3 fw-bold">Making <span
+                    class="text-secondary text-decoration-underline">your ideas</span> <br>
+                  happen!</h2>
+                <p class="text-primary">
+                  The most informative blockchain news source. Publishing multiple articles and videos daily.
+                </p>
+                <button class="btn btn-primary">Get Started</button>
+                <button class="btn btn-secondary">Our Projects</button>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="bannerImg4 d-flex justify-content-center align-items-center text-center">
+              <div>
+                <h2 class="text-primary display-3 fw-bold">Making <span
+                    class="text-secondary text-decoration-underline">your ideas</span> <br>
+                  happen!</h2>
+                <p class="text-primary">
+                  The most informative blockchain news source. Publishing multiple articles and videos daily.
+                </p>
+                <button class="btn btn-primary">Get Started</button>
+                <button class="btn btn-secondary">Our Projects</button>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="bannerImg5 d-flex justify-content-center align-items-center text-center">
+              <div>
+                <h2 class="text-primary display-3 fw-bold">Making <span
+                    class="text-secondary text-decoration-underline">your ideas</span> <br>
+                  happen!</h2>
+                <p class="text-primary">
+                  The most informative blockchain news source. Publishing multiple articles and videos daily.
+                </p>
+                <button class="btn btn-primary">Get Started</button>
+                <button class="btn btn-secondary">Our Projects</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>
+  </header>
+  <main class="container">
+    <!-- about section -->
+    <section class="row my-5 py-5 align-items-center">
+      <div class="col-md-6">
+        <img src="image/about-img.jpg" class="img-fluid" alt="">
+      </div>
+      <div class="col-md-6">
+        <h3 class="text-primary display-6 fw-bold">Who we are</h3>
+        <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
+          laborum.</p>
+        <ul>
+          <li>Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
+          <li>Duis aute irure dolor in reprehenderit in voluptate velit.</li>
+          <li>
+            Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+            trideta storacalaperda mastiro dolore eu fugiat nulla pariatur.
+          </li>
+        </ul>
+      </div>
+    </section>
+    <!-- service section -->
+    <section>
+      <h3 class="text-primary display-6 fw-bold">Services</h3>
+      <p>
+        Retaining customer base is important for any enterprise, it takes great effort to make good customer
+        relationship and minute error can ruin it. Owing to our outstanding customer service we have maintained the 85 %
+        customer retention rate. We, the best IT service provider company in Noida help your business in getting loyalty
+        back by transforming into latest advanced IT technology.
+      </p>
+      <div class="row">
+        <div class="col-md-6">
+          <div class="d-flex justify-content-center align-items-center p-3 shadow-lg my-3">
+            <i class="fa-solid fa-brain fa-4x text-secondary"></i>
+            <div class="ms-3">
+              <h1 class="text-secondary">Digital Transforming</h1>
+              <p>
+                Transforming business models of the organization is an important aspect of digital transformation, it
+                comprises transforming the business functions, activities, processes, models, assets, and activities.
+              </p>
+            </div>
+          </div>
+          <div class="d-flex justify-content-center align-items-center p-3 shadow-lg my-3">
+            <i class="fa-solid fa-microchip fa-4x text-secondary"></i>
+            <div class="ms-3">
+              <h1 class="text-secondary">IT Infrastructure</h1>
+              <p>
+                Transforming business models of the organization is an important aspect of digital transformation, it
+                comprises transforming the business functions, activities, processes, models, assets, and activities.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="d-flex justify-content-center align-items-center p-3 shadow-lg my-3">
+            <i class="fa-solid fa-swatchbook fa-4x text-secondary"></i>
+            <div class="ms-3">
+              <h1 class="text-secondary">UI/UX Design</h1>
+              <p>
+                Transforming business models of the organization is an important aspect of digital transformation, it
+                comprises transforming the business functions, activities, processes, models, assets, and activities.
+              </p>
+            </div>
+          </div>
+          <div class="d-flex justify-content-center align-items-center p-3 shadow-lg my-3">
+            <i class="fa-solid fa-magnifying-glass-chart fa-4x text-secondary"></i>
+            <div class="ms-3">
+              <h1 class="text-secondary">Business Analysis</h1>
+              <p>
+                Transforming business models of the organization is an important aspect of digital transformation, it
+                comprises transforming the business functions, activities, processes, models, assets, and activities.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- client section -->
+    <section class="my-5 py-5">
+      <h3 class="text-primary display-6 fw-bold">Clients</h3>
+      <p>
+        Sed tamen tempor magna labore dolore dolor sint tempor duis magna elit veniam aliqua esse amet veniam enim
+        export quid quid veniam aliqua eram noster malis nulla duis fugiat culpa esse aute nulla ipsum velit export
+        irure minim illum fore.
+      </p>
+      <div class="d-flex justify-content-between flex-wrap">
+        <img src="image/clients/client-1.png" class="clientImg" alt="">
+        <img src="image/clients/client-2.png" class="clientImg" alt="">
+        <img src="image/clients/client-3.png" class="clientImg" alt="">
+        <img src="image/clients/client-4.png" class="clientImg" alt="">
+        <img src="image/clients/client-5.png" class="clientImg" alt="">
+        <img src="image/clients/client-6.png" class="clientImg" alt="">
+      </div>
+    </section>
+    <!-- action section -->
+    <section class="my-5 py-5">
+      <h3 class="text-primary display-6 fw-bold">Call to Action</h3>
+      <p>
+        Sed tamen tempor magna labore dolore dolor sint tempor duis magna elit veniam aliqua esse amet veniam enim
+        export quid quid veniam aliqua eram noster malis nulla duis fugiat culpa esse aute nulla ipsum velit export
+        irure minim illum fore.
+      </p>
+    </section>
+    <!-- team section -->
+    <section class="my-5 py-5">
+      <h3 class="text-primary display-6 fw-bold">Our Team</h3>
+      <p>
+        Sed tamen tempor magna labore dolore dolor sint tempor duis magna elit veniam aliqua esse amet veniam enim
+        export quid quid veniam aliqua eram noster malis nulla duis fugiat culpa esse aute nulla ipsum velit export
+        irure minim illum fore.
+      </p>
+    </section>
+    <!-- contact section -->
+    <section class="my-5 py-5">
+      <h3 class="text-primary display-6 fw-bold">Contact Us</h3>
+      <p>
+        Sed tamen tempor magna labore dolore dolor sint tempor duis magna elit veniam aliqua esse amet veniam enim
+        export quid quid veniam aliqua eram noster malis nulla duis fugiat culpa esse aute nulla ipsum velit export
+        irure minim illum fore.
+      </p>
+    </section>
+  <footer>
+
+  </footer>
+  </main>
+  <!-- popper & bootstrap js-->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+
+  <script src="js/bootstrap.js"></script>
 </body>
+
 </html>

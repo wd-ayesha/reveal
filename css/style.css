@@ -1,0 +1,23 @@
+.bannerImg1{
+    background-image: url(../image/carousel/1.jpg);
+    height: 100vh;
+}
+.bannerImg2{
+    background-image: url(../image/carousel/2.jpg);
+    height: 100vh;
+}
+.bannerImg3{
+    background-image: url(../image/carousel/3.jpg);
+    height: 100vh;
+}
+.bannerImg4{
+    background-image: url(../image/carousel/4.jpg);
+    height: 100vh;
+}
+.bannerImg5{
+    background-image: url(../image/carousel/5.jpg);
+    height: 100vh;
+}
+.clientImg{
+    width: 160px;
+}
